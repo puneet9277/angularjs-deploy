@@ -1,4 +1,4 @@
 #!/bin/bash
-yum install -y nginx
-systemctl start nginx
-systemctl enable nginx
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
